@@ -1,6 +1,6 @@
 # tf-deno
 
-[TensorFlow.js](https://www.tensorflow.org/js) for Deno
+[TensorFlow.js](https://www.tensorflow.org/js) for Deno and browsers
 
 ## usage
 
@@ -14,9 +14,11 @@ a.print();
 ## sample
 
 ```sh
-deno test1.js
 deno bench1.js
+deno test1-print.js
+deno test2-patternmatch.js
 ```
+- [test2-patternmatch.html](https://code4fukui.github.io/tf-deno/test2-patternmatch.html)
 
 ## checked version
 
